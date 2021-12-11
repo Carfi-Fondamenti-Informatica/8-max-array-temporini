@@ -11,7 +11,7 @@ int main() {
     for(int i=0; i<d ; i++){
         cin >> a[i];
     }
-
+        maggiore(d,a);
     cout << maggiore(d,a) << endl;
 
     return 0;
