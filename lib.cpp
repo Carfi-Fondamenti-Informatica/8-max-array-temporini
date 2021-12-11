@@ -1,5 +1,5 @@
 #include "lib.h"
-float maxarray( const float array[],int dim){
+float nmax( const float array[],int dim){
 
     array[dim];
     float max= array[0];
