@@ -1,11 +1,11 @@
 #include "lib.h"
 
-float maggiore(int dim, float vettore[]){
-    float max = vettore [0];
+float maggiore(int dim, float lista[]){
+    float m = lista [0];
     for(int i=0; i < dim ; i++){
-        if( vettore[i] >= max){
-            max = vettore[i];
+        if( lista[i] >= m ){
+            m = lista[i];
         }
     }
-    return max;
+    return m;
 }
