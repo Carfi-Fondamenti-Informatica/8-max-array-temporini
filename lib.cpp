@@ -1,11 +1,10 @@
 #include "lib.h"
-float nmax( const float array[],int dim){
 
-    array[dim];
-    float max= array[0];
-    for(int i=0; i<dim;i++){
-        if(max<numeri[i]){
-            max= numeri[i];
+float maggiore(int dim, float vettore[]){
+    float max = vettore [0];
+    for(int i=0; i < dim ; i++){
+        if( vettore[i] >= max){
+            max = vettore[i];
         }
     }
     return max;
