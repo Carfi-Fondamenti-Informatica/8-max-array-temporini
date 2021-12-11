@@ -4,14 +4,14 @@ using namespace std;
 
 
 int main() {
-    int num;
-    cin>> num;
-    float array[num];
-    for(int i=0; i <num; i++){
+    int n;
+    cin>> n;
+    float array[n];
+    for(int i=0; i <n; i++){
         cin>> array[i];
 
     }
-      maxarray(array,num);
-    cout << maxarray(array,num) <<endl;
+      nmax(array,n);
+    cout << nmax(array,n) <<endl;
     return 0;
 }
