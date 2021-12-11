@@ -11,7 +11,7 @@ int main() {
         cin>> array[i];
 
     }
-      maxarry(array,num);
+      maxarray(array,num);
     cout << maxarray(array,num) <<endl;
     return 0;
 }
